@@ -10,14 +10,11 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Inter", sans-serif;
-}
-
-/* Header ---------------------------------------------------*/
-
-._container {
   max-width: 1288px;
   margin: 0px auto;
 }
+
+/* Header ---------------------------------------------------*/
 
 .header {
   position: absolute;
@@ -26,19 +23,24 @@ body {
   top: 0;
   z-index: 50;
   color: white;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .header__container {
+  max-width: 1288px;
   display: flex;
-  min-height: 79px;
-  align-items: center;
+  min-height: 79px;  
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
   font-family: "Playfair Display SC", serif;
   font-size: 36px;
-  margin-left: 80px;
+  margin-left: 80px;  
+  margin-right: 300px;
   color: inherit;
 }
 
@@ -63,7 +65,9 @@ body {
   flex: 1 1 auto;
 }
 
-.screen-block__container {
+/* Screen ---------------------------------------------------*/
+
+.screen-block__body {
   width: 1299px;
   height: 500px;
   background: url(../img/Screen.png);
@@ -76,7 +80,7 @@ body {
   font-size: 30px;
 }
 
-.underscreen-block__container {
+.underscreen-block__body {
   background-color: rgb(229, 174, 72, 0.75);
   width: 1299px;
   height: 120px;
@@ -97,6 +101,8 @@ body {
   margin-right: 110px;
 }
 
+/* Separator ---------------------------------------------------*/
+
 .separator-block__container {
   width: 1299px;
   height: 190px;
@@ -105,7 +111,7 @@ body {
   align-items: flex-start;
 }
 
-.top-block__separator {
+.separator-block__title {
   width: 1070px;
   height: 140px;
   display: flex;
@@ -114,20 +120,22 @@ body {
   border-bottom: 4px solid rgb(229, 174, 72, 0.75);
 }
 
-.top-block__separator h2 {
+.separator-block__title h2 {
   font-size: 35px;
 }
 
-.low-block__separator {
+.separator-block__subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.low-block__separator p {
+.separator-block__subtitle p {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+/* About ---------------------------------------------------*/
 
 .about-block__container {
   width: 1299px;
@@ -136,42 +144,43 @@ body {
   flex-direction: column;
 }
 
-.text-block__about {
+.about-block__text {
   width: 100%;
   height: 104px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.text-block__about p:first-child {
+.about-block__text p:first-child {
   margin-bottom: 18px;
 }
 
-.text-block__about b {
+.about-block__text b {
   font-weight: bold;
 }
 
-.icon-block__about {
+.about-block__icon {
   height: 316px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.icon-form__about {
+.about-block__form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.icon-body {
+.about-block__image {
   width: 100px;
   height: 100px;
 }
 
-.icon-text {
+.about-block__subtext {
   margin-top: 25px;
   font-weight: bold;
   font-size: 20px;
