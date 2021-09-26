@@ -26,22 +26,22 @@
         <nav class="header__menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link">О НАС</a>
+              <a href="#about" class="menu__link">О НАС</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">НАШИ УСЛУГИ</a>
+              <a href="#services" class="menu__link">НАШИ УСЛУГИ</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">НАША КОМАНДА</a>
+              <a href="#team" class="menu__link">НАША КОМАНДА</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">ПРАЙС</a>
+              <a href="#price" class="menu__link">ПРАЙС</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">КОНТАКТЫ</a>
+              <a href="#contact" class="menu__link">КОНТАКТЫ</a>
             </li>
             <li class="menu__item">
-              <div>+7(918)658-45-74</div>
+              <a href="tel:+79186584574">+7(918)658-45-74</a>
             </li>
           </ul>
         </nav>
@@ -64,14 +64,14 @@
 
       <div class="underscreen-block">
         <div class="underscreen-block__body">
-          <a href="" class="underscreen-block__button">
+          <a href="#form" class="underscreen-block__button">
             <div>СВЯЗАТЬСЯ С НАМИ</div>
           </a>
         </div>
       </div>
       <!---------- Separator ------------>
 
-      <div class="separator-block">
+      <div class="separator-block"  id="about">
         <div class="separator-block__container">
           <div class="separator-block__title">
             <h2>О НАС</h2>
@@ -115,7 +115,7 @@
 
       <!---------- Separator 2 ------------>
 
-      <div class="separator-block">
+      <div class="separator-block"  id="services">
         <div class="separator-block__container">
           <div class="separator-block__title">
             <h2>НАШИ УСЛУГИ</h2>
@@ -262,7 +262,7 @@
 
       <!---------- Separator 3 ------------>
 
-      <div class="separator-block">
+      <div class="separator-block"  id="team">
         <div class="separator-block__container">
           <div class="separator-block__title">
             <h2>НАША КОМАНДА</h2>
@@ -337,7 +337,7 @@
 
       <!---------- Separator 4 ------------>
 
-      <div class="separator-block">
+      <div class="separator-block"  id="price">
         <div class="separator-block__container">
           <div class="separator-block__title">
             <h2>ПРАЙС</h2>
@@ -358,7 +358,7 @@
 
       <!---------- Separator 5 ------------>
 
-      <div class="separator-block">
+      <div class="separator-block"  id="contact">
         <div class="separator-block__container">
           <div class="separator-block__title">
             <h2>КОНТАКТЫ</h2>
@@ -370,7 +370,7 @@
       <div class="contact-block">
         <div class="contact-block__text">
           <p>г. Краснодар ул. Логическая д.78 оф. 258</p>
-          <p>тел. +7(918)-457-52-22</p>
+          <a href="tel:+79186584574">+7(918)658-45-74</a>
         </div>
         <div class="contact-block__map">
           <img src="img/map/map.png" alt="price">
@@ -390,13 +390,23 @@
         </div>
       </div>
 
-<div class="form-block">
-  <div class="form-block__body">
-    <div class="form-block__item">
-      <div class="form-block__item form-block__item_text"></div>
-    </div>
-  </div>
-</div>
+      <!---------- Form ------------>
+
+      <div class="form-block">
+        <div class="form-block__body">
+          <div class="form-block__item">
+            <div class="form-block__text">Ваше имя</div>
+            <div class="form-block__input"><input></div>
+          </div>
+          <div class="form-block__item">
+            <div class="form-block__text">Ваш телефон</div>
+            <div class="form-block__input"><input></div>
+          </div>
+          <div class="form-block__button">
+            <button  id="form">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
 
     </div>
 
@@ -404,7 +414,15 @@
   </div>
 
 
-  <footer class="footer">Footer</footer>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__text">
+        <h4>Консалтинговая компания “MAI”</h4>
+        <p>г. Краснодар ул. Логическая д.78 оф. 258</p>
+        <a href="tel:+79186584574">+7(918)658-45-74</a>
+      </div>
+    </div>
+  </footer>
   </div>
   <script src="js/main.js"></script>
 </body>
