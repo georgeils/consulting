@@ -25,13 +25,12 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  
 }
 
 .header__container {
   max-width: 1288px;
   display: flex;
-  min-height: 79px;  
+  min-height: 79px;
   justify-content: space-between;
   align-items: center;
 }
@@ -39,7 +38,7 @@ body {
 .header__logo {
   font-family: "Playfair Display SC", serif;
   font-size: 36px;
-  margin-left: 80px;  
+  margin-left: 80px;
   margin-right: 300px;
   color: inherit;
 }
@@ -77,7 +76,7 @@ body {
   align-items: center;
 }
 .screen-block__title {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .underscreen-block__body {
@@ -158,7 +157,7 @@ body {
   margin-bottom: 18px;
 }
 
-.about-block__text b {
+.about-block__text strong {
   font-weight: bold;
 }
 
@@ -184,6 +183,108 @@ body {
   margin-top: 25px;
   font-weight: bold;
   font-size: 20px;
+}
+
+/* Services ---------------------------------------------------*/
+
+.services-block {
+  width: 1299px;
+  height: 1290px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+  flex-wrap: wrap;
+}
+
+.services-block__body {
+  width: 222px;
+  height: 404px;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-block__img {
+  width: 178px;
+  height: 206px;
+  margin: 28px 22px 32px;
+}
+
+.services-block__text {
+  margin: 0px 22px 0px;
+}
+
+/* Team ---------------------------------------------------*/
+
+.team-block {
+  width: 1299px;
+  height: 718px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.team-block__body {
+  width: 268px;
+  height: 689px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-block__img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  margin: 28px 22px 32px;
+}
+
+.team-block__name {
+  margin: 40px 0 40px;
+}
+
+.team-block__text {
+  width: 248px;
+  margin: 0px 22px 0px;
+}
+
+/* Price ---------------------------------------------------*/
+.price-block {
+  width: 1299px;
+  height: 468px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.price-block__body {
+  width: 848px;
+  height: 426px;
+}
+
+/* Map ---------------------------------------------------*/
+.contact-block {
+  width: 1299px;
+  height: 724px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.contact-block__text {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.contact-block__text p {
+  margin-bottom: 35px;
+}
+.contact-block__map {
+  width: 1088px;
+  height: 554px;
 }
 /* Footer ---------------------------------------------------*/
 
